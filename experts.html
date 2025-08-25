@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Project Name - описание">
+  <!-- генерируйте favicon тут - https://realfavicongenerator.net/ -->
+  <!-- ! в подключение фавикон манифеста обязательно добавьте строчки crossorigin="use-credentials"-->
+  <!-- <link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="favicon/site.webmanifest" rel="manifest" crossorigin="use-credentials">
+<link color="#c84659" href="favicon/safari-pinned-tab.svg" rel="mask-icon">
+<link href="favicon/favicon.ico" rel="shortcut icon">
+<meta content="#ffffff" name="msapplication-TileColor">
+<meta content="favicon/browserconfig.xml" name="msapplication-config">
+<meta content="#ffffff" name="theme-color">
+ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src=" https://cdn.jsdelivr.net/npm/inputmask@5.0.8/dist/jquery.inputmask.min.js "></script>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>ForTrevel — Главная</title>
+</head>
+
+<body>
+  <div style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id="icon-close" viewBox="0 0 20 20">
+        <path d="M.293 18.291a1 1 0 101.414 1.414L10 11.413l8.292 8.292a1 1 0 101.414-1.414l-8.292-8.292 8.292-8.292A1 1 0 1018.291.293L9.999 8.585 1.707.293A1 1 0 10.293 1.707L8.585 10 .293 18.291z" />
+      </symbol>
+    </svg>
+  </div>
+  <div class="wrapper --index">
+    <header class="header ">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="" class="header__logo"><img src="./img/svg/logo.svg" alt=""></a>
+          <div class="header__left">
+            <nav class="header__menu">
+              <div class="header__menu-inner">
+                <a href="" class="header__menu-item page-text-16">о ПОРА</a>
+                <a href="" class="header__menu-item page-text-16">компетенции</a>
+                <a href="" class="header__menu-item page-text-16">проекты и исследования</a>
+                <a href="" class="header__menu-item page-text-16">эксперты</a>
+                <a href="" class="header__menu-item page-text-16">гранты</a>
+                <a href="" class="header__menu-item page-text-16">пресс-центр</a>
+                <a href="" class="header__menu-item page-text-16">анонсы</a>
+                <a href="" class="header__menu-item --mob page-text-16">eng</a>
+              </div>
+            </nav>
+            <div class="header__search-btn">
+              <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.5 2.15518C16.9753 2.15518 21.5 6.7615 21.5 12.5517C21.5 18.3419 16.9753 22.9481 11.5 22.9481C6.02468 22.9481 1.5 18.3419 1.5 12.5517C1.50004 6.7615 6.0247 2.15518 11.5 2.15518Z" fill="white" stroke="#0069D2" stroke-width="3" />
+                <line y1="-2" x2="14.388" y2="-2" transform="matrix(0.695022 0.718988 -0.695022 0.718988 18 21.3448)" stroke="#0069D2" stroke-width="4" />
+              </svg>
+            </div>
+            <div class="header__burger">
+              <img class="header__burger-normal" src="./img/svg/burger.svg" alt="">
+              <img class="header__burger-close" src="./img/svg/burger.svg" alt="">
+            </div>
+            <a href="" class="header__lang page-text-16">eng</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="competencies-detail">
+        <div class="container">
+          <div class="competencies__headline">
+            <h1 class="competencies__header page-section-h2" style="font-weight: 400;">Экспертный совет ПОРА</h1>
+            <img src="./img/content/projects-logo.png" alt="" class="competencies__logo">
+          </div>
+          <div class="competencies__wrapper grid-with-sidebar">
+            <div class="competencies__content">
+              <div class="competencies__text page-text-16">
+                Экспертный совет — это объединение внештатных экспертов, принимающих участие в работе Проектного офиса
+                развития Арктики. За шесть лет существования ПОРА мы привлекли к сотрудничеству более 500 экспертов, в
+                том числе несколько десятков руководителей высших органов государственной власти федерального и
+                регионального уровня. Более 400 человек имеют статус «Член Экспертного совета ПОРА».
+                <br><br>
+                Члены ЭС ПОРА имеют ряд возможностей:
+                <ul>
+                  <li>выступать с докладами на заседаниях Экспертного совета / Дискуссионного клуба ПОРА по различным
+                    проблемам развития АЗРФ;</li>
+                  <li>выступать с комментариями для СМИ, с которыми у ПОРА налажено взаимодействие;</li>
+                  <li>публиковать статьи в журнале «Арктика 2035: актуальные вопросы, проблемы, решения»;</li>
+                  <li>получать денежные гранты ПОРА.</li>
+                </ul>
+                Чтобы вступить в Экспертный совет ПОРА, напишите нам на электронную почту, а также заполните анкету ниже
+                на этой странице.
+              </div>
+              <div class="competencies__person">
+                <img src="./img/content/person.png" alt="" class="competencies__person-img">
+                <div class="competencies__person-text">
+                  Здравствуйте!<br><br>Для организации базы данных экспертов ПОРА просим вас обновить и уточнить информацию о
+                  себе, ответив на вопросы анкеты ниже на этой странице.<br><br>Спасибо вам за то, что вы с нами!<br><br>Искренне
+                  ваш,<br>генеральный директор Экспертного центра «ПОРА»<br>Максим Данькин
+                </div>
+              </div>
+              <div class="competencies__text page-text-16">
+                Уважаемые коллеги!
+                <br><br>
+                Просим вас обновить информацию о себе.
+                <br><br>
+                Если вы не являетесь членом Экспертного совета ПОРА, но хотели бы получить этот статус, напишите нам на электронную почту, а также заполните эту анкету.
+              </div>
+              <div class="competencies__btns"><a href="" class="competencies__btn page-btn">заполнить анкету</a></div>
+            </div>
+            <aside class="competencies__aside ">
+              <a href="" class="competencies__aside-btn page-btn">сайт проекта</a>
+              <div class="competencies__aside-items">
+                <div class="competencies__aside-item --project">
+                  <svg class="competencies__aside-bg" preserveAspectRatio="none" width="418" height="232" viewBox="0 0 418 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M44.1074 1H354.027C371.365 1 387.096 9.11729 398.509 22.3037C409.923 35.4923 417 53.7383 417 73.9209V181.007C417 183.704 416.548 186.332 415.67 188.753L415.669 188.757C414.798 191.183 413.519 193.413 411.896 195.292L386.053 225.16H386.052C384.429 227.038 382.509 228.504 380.448 229.491C378.389 230.478 376.157 231 373.893 231H63.9727C46.6347 231 30.9036 222.883 19.4912 209.696C8.0771 196.508 1 178.262 1 158.079V50.9932C1 48.2978 1.46079 45.6686 2.33105 43.2432C3.20186 40.8163 4.48139 38.5862 6.10547 36.707L6.10449 36.7061L31.9473 6.83984H31.9482C33.5724 4.9606 35.4827 3.49529 37.5508 2.50879H37.5518C39.6106 1.52222 41.8427 1.00007 44.1074 1Z" stroke="#0069D2" stroke-width="2" />
+                  </svg>
+                  <span class="competencies__aside-post">Герои Арктики</span>
+                  <span class="competencies__aside-name">Маркелова М.С</span>
+                  <span class="competencies__aside-mail">
+                    пресс-секретарь <br>
+                    <a href="mailTo:nikitina@porarctic.ru">nikitina@porarctic.ru</a>
+                  </span>
+                  <br>
+                  <span class="competencies__aside-name">Маркелова М.С</span>
+                  <span class="competencies__aside-mail">
+                    пресс-секретарь <br>
+                    <a href="mailTo:nikitina@porarctic.ru">nikitina@porarctic.ru</a>
+                  </span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="container">
+        <p><a href="#" data-open-modal="feedback">modal--feedback link</a></p>
+        <p><a href="#" data-open-modal="success">modal--success link</a></p>
+      </div> -->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper page-text-16">
+          <div class="footer__top">
+            <a href="" class="footer__logo"><img src="./img/svg/logo-footer.svg" alt=""></a>
+            <a href="" class="footer__arrow">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M26 26H21.2468V8.67849L20.9497 8.34743L3.4223 25.7872L0.059415 22.4411L17.777 4.81219L17.7176 4.74125L0 4.76489V0.0354707L19.8446 0L26 6.88131V26Z" fill="white" />
+              </svg>
+            </a>
+          </div>
+          <div class="footer__main">
+            <div class="footer__col">
+              <div class="footer__col-header">Центральный офис ПОРА</div>
+              <div class="footer__col-text">119049, Москва, Коровий Вал, д.7, с.1</div>
+              <br>
+              <div class="footer__col-text">+7 (925) 050-33-77 <br></div>
+              <br>
+              <div class="footer__col-header">Генеральный директор</div>
+              <div class="footer__col-text">
+                Максим Данькин <br>
+                <a href="mailTo:m.dankin@porarctic.ru">m.dankin@porarctic.ru</a>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__col-header">Проекты ПОРА</div>
+              <a href="" class="footer__col-text">Портал GoArctic.ru</a>
+              <a href="" class="footer__col-text">Журнал «Арктика 2035»</a>
+              <a href="" class="footer__col-text">Центр «Белый мишка»</a>
+              <a href="" class="footer__col-text">Арктический лекторий</a>
+              <a href="" class="footer__col-text">Дни регионов Арктики в ПОРА</a>
+              <a href="" class="footer__col-text">Полярный индекс</a>
+              <a href="" class="footer__col-text">Этнологическая экспертиза</a>
+            </div>
+            <div class="footer__col">
+              <div class="footer__col-header">Сайт ПОРА</div>
+              <a href="" class="footer__col-text">О ПОРА</a>
+              <a href="" class="footer__col-text">Компетенции</a>
+              <a href="" class="footer__col-text">Проекты и исследования</a>
+              <a href="" class="footer__col-text">Эксперты</a>
+              <a href="" class="footer__col-text">Гранты</a>
+              <a href="" class="footer__col-text">Пресс-центр</a>
+              <a href="" class="footer__col-text">Анонсы</a>
+            </div>
+            <div class="footer__col">
+              <div class="footer__col-text">Наши материалы читают, смотрят, слушают более 4 млн человек ежемесячно.
+                Присоединяйтесь!</div>
+              <div class="footer__socials">
+                <a href="" class="footer__social"><img src="./img/svg/social-1.svg" alt=""></a>
+                <a href="" class="footer__social"><img src="./img/svg/social-2.svg" alt=""></a>
+                <a href="" class="footer__social"><img src="./img/svg/social-3.svg" alt=""></a>
+                <a href="" class="footer__social"><img src="./img/svg/social-4.svg" alt=""></a>
+                <a href="" class="footer__social"><img src="./img/svg/social-5.svg" alt=""></a>
+                <a href="" class="footer__social"><img src="./img/svg/social-6.svg" alt=""></a>
+              </div>
+              <div class="footer__col-text">18+</div>
+            </div>
+          </div>
+          <div class="footer__partners">
+            <div class="footer__col-header">Наши партнеры</div>
+            <div class="footer__list">
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>Норникель</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>СУЭК</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>САФУ имени М.В.Ломоносова</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>Росконгресс</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>НЕВА интернэшнл</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>Росконгресс</span></a>
+              <a href="" class="footer__item"><img src="./img/svg/partner-1.svg" alt=""><span>НЕВА интернэшнл</span></a>
+            </div>
+            <a href="" class="footer__all">все партнеры</a>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom-item">© 2025 Экспертный центр ПОРА</div>
+            <a href="" class="footer__bottom-item">Политика конфиденциальности</a>
+            <a href="" class="footer__bottom-item">Условия использования материалов сайта</a>
+            <a href="" class="footer__bottom-item">Политика обработки персональных данных</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
